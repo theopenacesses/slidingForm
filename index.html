@@ -1,0 +1,97 @@
+<!-- 
+    This I learned from Brad Travesy's Sliding Sign in and Sign up Form (https://www.youtube.com/watch?v=mUdo6w87rh4&t=1134s). I also added some personal twists to the underlying theme.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Login Form Demo</title>
+    </head>
+
+    <body>
+
+        <div class="container" id="container">
+
+            <div class="form-container sign-up-container">
+                <form action="#" class="formClass" id="formId">
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                        <a href="#" class="socialSignup"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="socialSignup"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="socialSignup"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                    <span>Regular Email Signup</span>
+                        <input type="text" class="fullName"/>
+                        <input type="email" class="Email"/>
+                        <input type="password" class="Password"/>
+                        <input type="password" class="Password"/>
+                        <button href="#">Sign Up</button>
+                </form>
+            </div>
+
+            <div class="form-container sign-in-container">
+                <form action="#"> 
+                    <h1>Sign In</h1>
+                        <div class="social-container">
+                            <a href="#" class="socialSignup"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#" class="socialSignup"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="socialSignup"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    <span>Or use an email account</span>
+                        <input type="email" class="Email" placeholder="Email"/>
+                        <input type="password" class="Password"/>
+                        <a href="#">Forgot Your Password?</a>
+                        <button href="#">Sign In</button>
+                </form>
+            </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back :)</h1>
+                    <p>Please log in</p>
+                <button class="ghost" id="signIn">Sign In</button>
+                </div>
+            <div class="overlay-panel overlay-right">
+                <h1>Hello, Friend :)</h1>
+                <p>To create an account, start here!</p>
+                <button class="ghost" id="signUp">Sign Up</button>
+            </div>    
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+    </body>
+
+</html>
+
+
+
+
+
+
+
+<!-- 
+    <div class="form-container sign-in-container">
+
+            <form action='#'>
+                <h1>Sign In</h1>
+                    <div class ="social-container">
+                        <a href="#" class="social">
+                            <i class="fab fa-facebook-f"></i>                                            
+                        </a>
+                    </div>
+            </form>
+
+        </div>
+
+        <div class="form-container sign-in-container">
+            <form action="#">
+                h1
+            </form>
+-->
